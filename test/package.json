@@ -1,0 +1,11 @@
+{
+  "name": "oscola-islenska-test",
+  "private": true,
+  "description": "Renders the RU OSCOLA examples with citeproc-js (the engine Zotero uses) and compares them with the expected output.",
+  "scripts": {
+    "test": "node run.js ../oscola-islenska.csl"
+  },
+  "dependencies": {
+    "citeproc": "2.4.63"
+  }
+}
